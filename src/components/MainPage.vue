@@ -16,7 +16,7 @@
         <button v-if="isShowButton" class="buttons_main">Instagram</button>
     </div>
     </div>
-    <div class="slogan"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2></div>
+    <div class="slogan"><h2>Hand-made custom titanium and carbon framesets</h2></div>
 <div class="first_selection" >
 </div>
 
@@ -157,7 +157,7 @@ export default{
     display: flex;
     justify-content: space-around;
     right: 0;
-    margin-top: 1%;
+    margin-top: 6%;
     margin-right: 10%;
     width: 25%;
     
@@ -168,7 +168,7 @@ export default{
     position: absolute;
     display: flex;
     justify-content: space-around;
-    margin-top: 1%;
+    margin-top: 6%;
     margin-left: 10%;
     width: 25%;
     

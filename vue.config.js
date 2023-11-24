@@ -1,5 +1,4 @@
-
-module.exports = {
-  publicPath:'/Oduwan/',
-  
-}
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})

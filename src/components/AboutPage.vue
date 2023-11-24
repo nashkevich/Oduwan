@@ -1,7 +1,12 @@
 <template>
 <div class="second_fragment">
-<div class="word_about"><h2>About</h2></div>
-<div class="main_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+<div class="word_about"><h2>Community</h2></div>
+<div class="main_text"><p>Oduwan is not bikes. 
+Oduwan is a friend club 
+and community bound by 
+passion to push the fuck 
+out of bikes and have fun
+
     <br>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
     <br>
@@ -9,7 +14,8 @@
     
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu
-</p></div>
+</p>
+<div class="img_about"  style="background-image: url(/img/image-c80683ab-9690-4cb9-bc4c-8c09bf8286d7.jpg);"></div></div>
 </div>
 </template>
 
@@ -23,6 +29,10 @@
 
 <style>
 @media(min-width: 800px){
+    .img_about{
+        width: 60%;
+        height: 100%;
+    }
     .main_text{
         z-index: 1;
         position: absolute;
